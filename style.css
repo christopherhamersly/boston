@@ -1,4 +1,5 @@
 * {
+    background-color: lightgray;
     font-family: helvetica;}
 
 background {
@@ -19,15 +20,20 @@ img {
 
 }
 
-h3 { 
+.h3 { 
     text-align: center;
     font-size: 32px;
 }
 
-nav {
+.nav {
     text-align: center;
     color: black;
     font-family: cursive;
+}
+
+.h4 {
+    text-align: center;
+    font-stretch: expanded;
 }
 
 
