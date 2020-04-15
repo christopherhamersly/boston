@@ -48,4 +48,12 @@ ol {
 div {
     color:black;
     align-items: center;
+    text-align: center;
+}
+
+p {
+    align-items: center;
+    color: red;
+    outline: lightskyblue 1px;
+    text-align: center;
 }
