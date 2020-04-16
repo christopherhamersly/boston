@@ -3,13 +3,30 @@
 
 alert('welcome to boston');
 
-
-function favoriteFood () {
-    prompt('your favorite food');
-}
-
-function yes() {
-    confirm('yes');
+function favFood() {
+var favoriteFood = '';
+    while( (favoriteFood != 'chowdah') && (favoriteFood != 'lobsta')){  
+        favoriteFood = prompt('What is your favorite food? (chowdah or lobsta)').toLowerCase();
+    }
+ }
+ 
+function guessWhichYear() {
+ 
+    var correctAnswer = 1630;
+    
+        for(var i = 0; i < 12; i = i + 1){
+            var numberGuess = prompt('Please Guess which year Boston was founded');
+            if(numberGuess == correctAnswer){
+                alert('Go Pats Go!');
+                break;
+            } else {
+                alert('Sorry, not quite');
+            }
+            if (i == '11') {
+                alert('Get outta here');
+            ;
+            }
+        }
 }
 
 function knockKnockJoke () {
@@ -40,8 +57,8 @@ function knockKnockJoke () {
     document.write('<h3>' + joke + '</h3>');
 }
 
-favoriteFood ();
-yes ();
+favFood ();
+guessWhichYear ();
 knockKnockJoke ();
 
 
