@@ -1,7 +1,7 @@
 'use strict'
 
 
-alert('welcome to boston');
+alert('Welcome to Boston');
 
 function favFood() {
 var favoriteFood = '';
@@ -57,9 +57,9 @@ function knockKnockJoke () {
     document.write('<h3>' + joke + '</h3>');
 }
 
-favFood ();
-guessWhichYear ();
-knockKnockJoke ();
+ favFood ();
+ guessWhichYear ();
+ knockKnockJoke ();
 
 
 

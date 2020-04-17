@@ -5,6 +5,7 @@
 
 h1 {
     text-align: center;
+    font-size: 50px;
     color: white;
     
 
@@ -14,8 +15,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 35%;
     border-radius: 10px;
+    
     
 
 }
@@ -25,36 +27,51 @@ h3 {
     font-size: 32px;
     color: white;
     align-items: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
+    text-align: justify center;
     text-align: center;
     color: black;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    
+    
+
 }
 
 h4 {
     text-align: center;
     font-stretch: expanded;
     font-family: monospace;
+    font-size: 20px;
+    font-kerning: 10px;
 }
 
-ol {
-    color:black;
-    border: black 1px;
-    font-weight: bold;
-}
 
 div {
     color:black;
     align-items: center;
     text-align: center;
+    font: helvetica;
+    font-kerning: 10px;
 }
 
 p {
     align-items: center;
-    color: red;
-    outline: lightskyblue 1px;
+    color: black;
+    outline: lightskyblue 3px;
     text-align: center;
+    font-size: 20px;
+    font-family: helvetica;
+    line-height: 3px;
+}
+
+
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    
 }
